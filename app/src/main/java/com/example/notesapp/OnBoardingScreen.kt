@@ -23,6 +23,6 @@ class OnBoardingScreen : AppCompatActivity() {
             val intent = Intent(this, MainHome::class.java)
             startActivity(intent)
             finish()
-        }, 1000)
+        }, 2000)
     }
 }
