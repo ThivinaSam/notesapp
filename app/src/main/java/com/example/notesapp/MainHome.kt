@@ -44,6 +44,7 @@ class MainHome : AppCompatActivity() {
 
     private lateinit var notesListView: ListView
     private lateinit var addNoteButton: Button
+    private lateinit var addTimerButton: Button
 
     private var notes = mutableListOf<String>()
     private lateinit var adapter: ArrayAdapter<String>
@@ -54,6 +55,7 @@ class MainHome : AppCompatActivity() {
 
         addNoteButton = findViewById(R.id.addNoteButton)
         notesListView = findViewById(R.id.notesListView)
+        addTimerButton = findViewById(R.id.addTimer)
 
         loadNotes()
 
@@ -67,6 +69,11 @@ class MainHome : AppCompatActivity() {
 
         notesListView.setOnItemClickListener { _, _, position, _ ->
             showEditDeleteDialog(position)
+        }
+
+        addTimerButton.setOnClickListener {
+            val intent = Intent(this, PersistentTimer::class.java)
+            startActivityForResult(intent, 1)
         }
     }
 

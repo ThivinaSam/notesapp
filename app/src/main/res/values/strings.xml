@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">notesapp</string>
+<!--    <string name="app_name">notesapp</string>-->
+    <string name="btnEYN">Enter your note...</string>
+    <string name="btnSave">Save</string>
+<!--    <string name="placeHolderTime">00:00:00</string>-->
+<!--    <string name="reset">RESET</string>-->
+<!--    <string name="start">start</string>-->
+    <string name="stop">stop</string>
+    <string name="timerBtn">Start Timer</string>
+
+    <string name="app_name">Notes App</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="placeHolderTime">00:00:00</string>
+
 </resources>
