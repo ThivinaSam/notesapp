@@ -13,14 +13,14 @@
 
         <ListView
             android:id="@+id/notesListView"
-            android:layout_width="410dp"
-            android:layout_height="616dp"
+            android:layout_width="353dp"
+            android:layout_height="644dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.396"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0">
+            app:layout_constraintVertical_bias="0.816">
 
         </ListView>
 
@@ -56,8 +56,8 @@
             android:id="@+id/addTimer"
             android:layout_width="60dp"
             android:layout_height="64dp"
-            android:layout_marginLeft="310dp"
-            android:layout_marginTop="450dp"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="500dp"
             android:backgroundTint="@color/yellow"
             android:contentDescription="Start the timer"
             app:layout_constraintBottom_toTopOf="@+id/addNoteButton"
